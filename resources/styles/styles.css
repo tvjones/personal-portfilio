@@ -209,10 +209,18 @@ body {
   #welcome-section button {
     width: 80%;
   }
+
+  #navbar ul{
+    width:90%;
+  }
 }
 @media screen and (max-width: 500px) {
   .project-tile {
     width: 80%;
+  }
+
+  #navbar ul{
+    width:90%;
   }
 
   .project-tile h3 {
