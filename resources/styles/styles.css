@@ -213,6 +213,13 @@ body {
   #navbar ul{
     width:90%;
   }
+
+  
+  #contact button {
+    width: 70%;
+    top: 45%;
+    color: black !important;
+  }
 }
 @media screen and (max-width: 500px) {
   .project-tile {
@@ -229,6 +236,8 @@ body {
 
   #contact button {
     width: 70%;
+    top: 45%;
+    color: black !important;
   }
 
   #welcome-section button {
