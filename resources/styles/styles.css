@@ -216,8 +216,7 @@ body {
 
   
   #contact button {
-    width: 70%;
-    top: 45%;
+    top: 45% !important;
     color: black !important;
   }
 }
@@ -235,8 +234,7 @@ body {
   }
 
   #contact button {
-    width: 70%;
-    top: 45%;
+    top: 45% !important;;
     color: black !important;
   }
 
