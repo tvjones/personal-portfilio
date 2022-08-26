@@ -179,7 +179,10 @@ body {
 
 #contact {
   height: 25vh;
-  background-color: black;
+  /*background-color: black;*/
+  background-image: url('/resources/images/black-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
 }
 
