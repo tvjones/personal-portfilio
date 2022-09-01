@@ -72,12 +72,6 @@ body {
   display: inline-block;
 }
 
-#projects h2 {
-  font-size: 3rem;
-  text-align: center;
-  padding-top: 4rem;
-}
-
 #welcome-section span {
   font-size: 3rem;
   display: inline-block;
@@ -110,7 +104,7 @@ body {
 }
 
 #welcome-section > a > button {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   text-decoration: none;
   color: black;
 }
@@ -121,10 +115,45 @@ body {
   transition: 0.8s;
 }
 
+#projects h2 {
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+#filter {
+  width: 80%;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  text-align: center;
+  margin-top: 15rem;
+}
+
+#filter select,
+#filter label {
+  font-size: 1.8rem;
+}
+
+#filter select {
+  border: 2px solid rgb(185, 236, 134);
+}
+
 #projects {
   min-height: 100vh;
   max-height: fit-content;
   background-color: rgb(235, 230, 230);
+}
+
+#projects > p {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  text-decoration-color: rgb(185, 236, 134);
+  text-underline-offset: 0.5rem;
+  line-height: 3rem;
+  text-decoration-thickness: 0.5rem;
 }
 
 #projects > h2 {
@@ -246,7 +275,17 @@ body {
   height: 10%;
 }
 
+#welcome-section img {
+  height: 7rem;
+  width: 7rem;
+}
+
 @media screen and (max-width: 800px) {
+  #welcome-section img {
+    height: 5rem;
+    width: 5rem;
+  }
+
   .project-tile {
     width: 40%;
   }
@@ -272,6 +311,11 @@ body {
   }
 }
 @media screen and (max-width: 500px) {
+  #welcome-section img {
+    height: 3rem;
+    width: 3rem;
+  }
+
   .project-tile {
     width: 80%;
   }
