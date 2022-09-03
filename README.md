@@ -3,6 +3,7 @@
 This project was a part of the Free Code Camp's Responsive Web Design Course. It has a few of the projects
 that I have work worked on in the past and is still a work in progress. The projects shown were all created by me.
 
+Live link: https://personal-portfilio-20m7iqolq-tvjones.vercel.app/
 
 ## Acknowledgements
 
@@ -23,6 +24,6 @@ What did you learn while building this project? What challenges did you face and
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/43976584/185197282-ab5c9efd-7c85-479d-92e9-58e830670afe.png)
+![image](https://user-images.githubusercontent.com/43976584/188254368-90f79e29-5a2d-4e63-bf01-ad66fef6b0bf.png)
 
 
