@@ -1,3 +1,20 @@
+
+
+const displayLinks = () =>{
+  let tiles = document.getElementsByClassName('project-tile')
+  let tileLinks = document.getElementsByClassName('links')
+  console.log(tiles.length)
+  for(let i = 0; i < tiles.length;i++){
+    console.log(i)
+    tiles[i].addEventListener('mouseover',()=>{
+      tileLinks[i].style.display = 'flex'
+    })
+  }
+  
+}
+
+
+//display tiles based on filter
 const displayTiles = () => {
   const filter = document.getElementById("filter-select");
   let value = filter.value;
@@ -17,3 +34,5 @@ const displayTiles = () => {
     }
   }
 };
+
+displayLinks()
