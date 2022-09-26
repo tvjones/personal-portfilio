@@ -142,7 +142,7 @@ body {
 #projects {
   min-height: 100vh;
   max-height: fit-content;
-  background-color: rgb(155, 153, 153);
+  background-color: white;
 }
 
 #projects > p {
@@ -152,13 +152,14 @@ body {
   text-decoration: underline;
   text-decoration-color: rgb(185, 236, 134);
   text-underline-offset: 0.5rem;
+  text-transform: none;
   line-height: 3rem;
   font-weight: bold;
   text-decoration-thickness: 0.5rem;
 }
 
 #projects > h2 {
-  letter-spacing: 5px;
+  letter-spacing: 3px;
 }
 
 #project-tiles {
@@ -176,6 +177,7 @@ body {
   background-image: url("/resources/images/green-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .project-tile a {
