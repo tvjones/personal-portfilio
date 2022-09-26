@@ -24,6 +24,9 @@ What did you learn while building this project? What challenges did you face and
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/43976584/188254368-90f79e29-5a2d-4e63-bf01-ad66fef6b0bf.png)
+![image](https://user-images.githubusercontent.com/43976584/192379765-250d214f-1890-403e-979c-ecc75fe09f2c.png)
+![image](https://user-images.githubusercontent.com/43976584/192379853-37d96322-ca4f-4cc0-8824-3e8ed2ba1731.png)
+![image](https://user-images.githubusercontent.com/43976584/192379952-033b6bfc-cbe4-4706-ae97-91bf9f8f119d.png)
+
 
 
