@@ -52,8 +52,8 @@ body {
 
 #welcome-section {
   height: 100vh;
-  /*background-color: black;*/
-  background-image: url("/resources/images/black-background.jpg");
+  background-color: black;
+  /*background-image: url("/resources/images/black-background.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -142,7 +142,7 @@ body {
 #projects {
   min-height: 100vh;
   max-height: fit-content;
-  background-color: rgb(235, 230, 230);
+  background-color: rgb(155, 153, 153);
 }
 
 #projects > p {
@@ -153,6 +153,7 @@ body {
   text-decoration-color: rgb(185, 236, 134);
   text-underline-offset: 0.5rem;
   line-height: 3rem;
+  font-weight: bold;
   text-decoration-thickness: 0.5rem;
 }
 
@@ -225,8 +226,8 @@ body {
 
 #contact {
   height: 25vh;
-  /*background-color: black;*/
-  background-image: url("/resources/images/black-background.jpg");
+  background-color: black;
+  /*background-image: url("/resources/images/black-background.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
