@@ -3,7 +3,7 @@
 This project was a part of the Free Code Camp's Responsive Web Design Course. It has a few of the projects
 that I have work worked on in the past and is still a work in progress. The projects shown were all created by me.
 
-Live link: https://personal-portfilio-20m7iqolq-tvjones.vercel.app/
+Live link: https://personal-portfilio.vercel.app/
 
 ## Acknowledgements
 
