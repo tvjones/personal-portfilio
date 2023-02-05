@@ -19,10 +19,10 @@ body {
   position: fixed;
   width: 100%;
   min-height: 10vh;
-  /*background-color: yellowgreen;*/
-  background-image: url("/resources/images/green-background.jpg");
+  background-color: black;
+ /* background-image: url("/resources/images/green-background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
 }
 
 #navbar ul {
@@ -43,7 +43,7 @@ body {
 
 #navbar a {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 #navbar a:hover {
@@ -52,7 +52,7 @@ body {
 
 #welcome-section {
   height: 100vh;
-  background-color: black;
+  background-color: rgb(50,52,68);
   /*background-image: url("/resources/images/black-background.jpg");*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,6 +71,7 @@ body {
   font-size: 3rem;
   display: inline-block;
 }
+
 
 #welcome-section span {
   font-size: 3rem;
@@ -119,6 +120,7 @@ body {
   font-size: 3rem;
   text-align: center;
   padding-top: 4rem;
+  color: white;
 }
 
 #filter {
@@ -130,19 +132,28 @@ body {
   margin-top: 15rem;
 }
 
-#filter select,
 #filter label {
   font-size: 1.8rem;
+  color: white;
 }
+
+
 
 #filter select {
   border: 2px solid rgb(185, 236, 134);
+  font-size: 1.8rem;
+}
+
+hr{
+  width: 100%;
+  height: 2px;
+  background-color: black;
 }
 
 #projects {
   min-height: 100vh;
   max-height: fit-content;
-  background-color: white;
+  background-color: rgb(50,52,68);
 }
 
 #projects > p {
@@ -156,6 +167,7 @@ body {
   line-height: 3rem;
   font-weight: bold;
   text-decoration-thickness: 0.5rem;
+  color: white;
 }
 
 #projects > h2 {
